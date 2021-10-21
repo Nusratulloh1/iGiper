@@ -1,0 +1,15 @@
+$primary-color: #01BFA5;
+$gray-color: #ABABAB;
+
+//#0098D0
+
+.text {
+    cursor: pointer;
+    color: $primary-color;    
+    background: #ffffff;    
+    
+    &:hover {
+        background: $primary-color;
+        color: #ffffff;
+    }
+}
